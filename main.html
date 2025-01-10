@@ -4,8 +4,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <style>
+		*{
+			padding: 2px;
+		}
+        form {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+    </style>
     <form action="/submit-application" method="post">
-		
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" placeholder="Name" required><br><br>
         
